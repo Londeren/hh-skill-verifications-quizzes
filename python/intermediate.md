@@ -68,7 +68,7 @@ print ("Проверка завершена")
 #### Q6. Что по смыслу возвращает функция calculate() в коде ниже?
 
 ```
-def calculate price, discount_rate):
+def calculate (price, discount_rate):
     discount_amount = price * (discount_rate / 100)
     return price - discount_amount
 calculate (1000, 20)
