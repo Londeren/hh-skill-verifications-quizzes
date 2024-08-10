@@ -19,7 +19,7 @@
 
 #### Q5. Нужно изменить состояние с рис. 1 на состояние с рис. 2 (см. ниже). Знак «*» указывает на HEAD. Ваш коллега предложил такую последовательность команд
 
-<img width="610" alt="advanced-q5" src="advanced-q5.png">
+<img width="600" alt="advanced-q5" src="assets/advanced-q5.png">
 
 ```
 1. git checkout one
@@ -43,7 +43,7 @@
 
 #### Q8. Какой параметр нужно передать команде git checkout, чтобы перейти из состояния как на рис. 1 в состояние на рис. 2? При условии, что на визуализации первый родитель находится прямо над коммитом.
 
-<img width="1400" alt="1220ce20-cb19-4687-99a0-ce8af8dc10ee" src="advanced-q8.png">
+<img width="600" alt="1220ce20-cb19-4687-99a0-ce8af8dc10ee" src="assets/advanced-q8.png">
 
 - [x] HEAD~3^2
 
@@ -96,7 +96,7 @@ please contact us at support@github.com
 
 #### Q15. К какому рабочему процессу относится следующее состояние репозитория?
 
-<img width="1400" alt="8a0d2821-ffb4-4faf-ba48-f754d67793c1" src="advanced-q15.png">
+<img width="600" alt="8a0d2821-ffb4-4faf-ba48-f754d67793c1" src="assets/advanced-q15.png">
 
 - [x] Gitflow Workflow
 
