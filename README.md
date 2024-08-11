@@ -52,12 +52,12 @@ _Я регулярно прохожу собесы, в основном на з�
 3. [JavaScript](javascript)
 4. [Git](git)
 5. [HTML](html)
-7. [Python](python)
-8. [SQL](sql)
-9. [Scrum](scrum)
-10. [Agile Project Management](agile-project-management)
-12. [MS Excel](ms-excel)
-13. [Копирайтинг](copywriting)
+6. [Python](python)
+7. [SQL](sql)
+8. [Scrum](scrum)
+9. [Agile Project Management](agile-project-management)
+10. [MS Excel](ms-excel)
+11. [Копирайтинг](copywriting)
 
 [→ Страница с тестами на сайте hh](https://hh.ru/applicant/skill_verifications/methods)
 
