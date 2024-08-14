@@ -17,7 +17,7 @@
 
 #### Q2. Добавьте новый столбец email с типом данных VARCHAR(255) в существующую таблицу Clients.
 
-- [x] ALTER TABLE Clients ADD email VARCHAR(255);
+- [x] `ALTER TABLE Clients ADD email VARCHAR(255);`
 
 #### Q3. Каким будет результат выполнения следующего кода для таблицы Cars, если car_id — первичный ключ? На изображении — элементы вывода таблицы.
 `INSERT INTO Cars VALUES distributor_id = 5, car_model = 'BMW X5 M50d';`
@@ -30,6 +30,7 @@
 | number         | Integer |
 
 Записи в таблице Cars
+
 | car_id | distributor_id | car_model              | number |
 | ------ | -------------- | ---------------------- | ------ |
 | 1      | 1              | BMW X5 M50d           | 10     |
@@ -89,9 +90,7 @@ HAVING total_salary <= 700000 GROUP BY department_id;
 
 ```
 CREATE VIEW PeopleView 
-
 AS SELECT age, phone_number, address 
-
 FROM Respondents, Info
 WHERE Respondents.respondent_id = Info.respondent_id;
 ```
@@ -181,10 +180,13 @@ FROM cd.database;
 
 #### Q14. Вам нужен отсортированный в алфавитном порядке список из 10 неповторяющихся имён в таблице group_A. С помощью какого кода может быть решена данная задача?
 
-- [x] ```SELECT distinct surname
-      FROM group_A
+- [x] ↓
+```
+SELECT distinct surname
+FROM group_A
 ORDER BY surname
-LIMIT 10; ```
+LIMIT 10; 
+```
 
 #### Q15. У вас есть две таблицы: workers и salary. Первая содержит уникальный id сотрудника, его фамилию (surname) и должность (position). Во второй таблице указано: id должности, сама должность и соответствующая ей зарплата. Вам нужно узнать, сколько зарабатывает каждый сотрудник. Какой вариант кода сможет решить данную задачу?
 
