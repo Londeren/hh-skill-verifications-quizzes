@@ -120,7 +120,6 @@ class Test(unittest.TestCase):
    def test_b(self):
       self.assertEqual(1 + 2, 3)
 
-
    @pytest.mark.skip
    def test_c(self):
       self.assertEqual(1 + 3, 4)
@@ -130,7 +129,7 @@ class Test(unittest.TestCase):
       self.assertEqual(1 + 4, 5)
 ```
 
-- [x] 2
+- [x] 1
 
 #### Q14. Выберите ответ, в котором указаны только те варианты, для которых следующее выражение вернет значение True.
 
