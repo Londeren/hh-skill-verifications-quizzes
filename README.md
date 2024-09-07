@@ -58,6 +58,7 @@
 9. Agile Project Management: [средний](agile-project-management/intermediate.md).
 10. MS Excel: [продвинутый](ms-excel/advanced.md).
 11. Копирайтинг: [средний](copywriting/intermediate.md).
+12. 🔜 AutoCAD
 
 [→ Страница с тестами на сайте hh](https://hh.ru/applicant/skill_verifications/methods)
 
