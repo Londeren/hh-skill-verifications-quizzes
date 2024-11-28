@@ -50,7 +50,7 @@
 1. Уровень английского языка: [B1](english/b1.md), [B2](english/b2.md), [C1](english/c1.md).
 2. ООП: [базовый](oop/basic.md), [продвинутый](oop/advanced.md).
 3. JavaScript: [продвинутый](javascript/advanced.md).
-4. Git: [базовый](git/basic.md), [продвинутый](git/advanced.md).
+4. Git: [базовый](git/basic.md), [средний](git/intermediate.md), [продвинутый](git/advanced.md).
 5. HTML: [продвинутый](html/advanced.md).
 6. Python: [средний](python/intermediate.md), [продвинутый](python/advanced.md).
 7. SQL: [средний](sql/intermediate.md), [продвинутый](sql/advanced.md).
