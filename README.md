@@ -53,7 +53,7 @@
 4. Git: [базовый](git/basic.md), [средний](git/intermediate.md), [продвинутый](git/advanced.md).
 5. HTML: [продвинутый](html/advanced.md).
 6. Python: [средний](python/intermediate.md), [продвинутый](python/advanced.md).
-7. SQL: [средний](sql/intermediate.md), [продвинутый](sql/advanced.md).
+7. SQL: [базовый](sql/basic.md), [средний](sql/intermediate.md), [продвинутый](sql/advanced.md).
 8. Scrum: [продвинутый](scrum/advanced.md).
 9. Agile Project Management: [средний](agile-project-management/intermediate.md).
 10. MS Excel: [продвинутый](ms-excel/advanced.md).
