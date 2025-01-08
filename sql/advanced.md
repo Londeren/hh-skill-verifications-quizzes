@@ -1,17 +1,17 @@
 ## SQL — продвинутый уровень
 
-🏆 Правильных ответов: 14 из 15.
+🏆 Правильных ответов: 15 из 15.
 
 #### Q1. Получите список имен и фамилий сотрудников, которые работают в отделе маркетинга, из таблицы Employees.
 
-| Employees  |  |
-|---|---|
-| employee_id  | Integer  |
-|  first_name | String  |
-| last_name |  String |
-|  department | String  |
-|  job_title | String  |
-|  salary | Integer  |
+| Employees    |         |
+| ------------ | ------- |
+| employee_id  | Integer |
+| first_name   | String  |
+| last_name    |  String |
+| department   | String  |
+| job_title    | String  |
+| salary       | Integer |
 
 - [x] `SELECT first_name, last_name FROM Employees WHERE department = 'Marketing';`
 
@@ -20,9 +20,12 @@
 - [x] `ALTER TABLE Clients ADD email VARCHAR(255);`
 
 #### Q3. Каким будет результат выполнения следующего кода для таблицы Cars, если car_id — первичный ключ? На изображении — элементы вывода таблицы.
-`INSERT INTO Cars VALUES distributor_id = 5, car_model = 'BMW X5 M50d';`
 
-|  Cars     |         |
+```sql
+INSERT INTO Cars VALUES distributor_id = 5, car_model = 'BMW X5 M50d';
+```
+
+|  Cars          |         |
 | -------------- | ------- |
 | car_id         | Integer |
 | distributor_id | Integer |
@@ -31,18 +34,18 @@
 
 Записи в таблице Cars
 
-| car_id | distributor_id | car_model              | number |
-| ------ | -------------- | ---------------------- | ------ |
+| car_id | distributor_id | car_model             | number |
+| ------ | -------------- | --------------------- | ------ |
 | 1      | 1              | BMW X5 M50d           | 10     |
 | 2      | 2              | Mercedez-Benz C-Class | 7      |
-| 3      | 3              | Lexus LX               | 7      |
+| 3      | 3              | Lexus LX              | 7      |
 
 
 - [x] Отобразится ошибка
 
 #### Q4. Вы хотите найти заработную плату отделов, у которых общая заработная плата не превышает 700 000 рублей, в таблице Salaries. Какая ошибка допущена в запросе?
 
-```
+```sql
 SELECT department_id, SUM(salary) AS total_salary FROM Salaries
 HAVING total_salary <= 700000 GROUP BY department_id;
 ```
@@ -54,18 +57,19 @@ HAVING total_salary <= 700000 GROUP BY department_id;
 | department_id | Integer |
 | salary        | Double |
 
-- [x] Используется total_salary <= 700000 вместо SUM(salary) <= 700000
+- [x] HAVING total_salary стоит перед GROUP BY, а не после него
 
 #### Q5. Найдите данные, относящиеся только к левой таблице Orders, в таблицах Orders и Clients, учитывая, что общий столбец между ними — client_id.
-| Orders | |
+
+| Orders    |         |
 | --------- | ------- |
 | order_id  | Integer |
 | client_id | Integer |
 | date      | Date    |
 
 
-| Clients | |
-| --------- | ------- |
+| Clients      |         |
+| ------------ | ------- |
 | client_id    | Integer |
 | company_name | String  |
 | email        | String  |
@@ -75,7 +79,7 @@ HAVING total_salary <= 700000 GROUP BY department_id;
 
 #### Q6. Найдите имена сотрудников, зарплата которых ниже медианной зарплаты всех сотрудников в таблице Employees.
 
-| Employees  |         |
+| Employees     |         |
 | ------------- | ------- |
 | employee \_id | Integer |
 | first_name    | String  |
@@ -88,9 +92,9 @@ HAVING total_salary <= 700000 GROUP BY department_id;
 
 #### Q7. Вам нужно создать представление с именем PeopleView с данными из двух таблиц Respondents и Info, в котором будут содержаться возраст, телефоны и адреса респондентов. Какая ошибка допущена в запросе?
 
-```
-CREATE VIEW PeopleView 
-AS SELECT age, phone_number, address 
+```sql
+CREATE VIEW PeopleView
+AS SELECT age, phone_number, address
 FROM Respondents, Info
 WHERE Respondents.respondent_id = Info.respondent_id;
 ```
@@ -114,15 +118,11 @@ WHERE Respondents.respondent_id = Info.respondent_id;
 
 #### Q8. Вы создали некластеризованный индекс в таблице Products для столбца category, который содержит его записи и адреса соответствующей строки (в основной таблице), в которой находится запись столбца. Какой шаг из перечисленных ниже не совершается при запуске следующего запроса?
 
-```
+```sql
 CREATE INDEX product_category_index
-
 ON Products (category);
-
 SELECT product_name, category, price
-
 FROM Products
-
 WHERE category = 'electronics';
 ```
 
@@ -138,7 +138,7 @@ WHERE category = 'electronics';
 
 #### Q9. Вы создали таблицу:
 
-```
+```sql
 CREATE TABLE yourtable(x int NOT NULL, y int NOT NULL, CONSTRAINT pk_yourtable PRIMARY KEY(x, y));
 ```
 
@@ -148,7 +148,7 @@ CREATE TABLE yourtable(x int NOT NULL, y int NOT NULL, CONSTRAINT pk_yourtable P
 
 #### Q10. У вас есть таблица Orders с миллионом строк и проиндексированным столбцом order_date, который был создан с использованием следующего запроса:
 
-```
+```sql
 CREATE INDEX order_index ON Orders(order_date);
 ```
 
@@ -158,9 +158,12 @@ CREATE INDEX order_index ON Orders(order_date);
 
 #### Q11. Напишите SQL-запрос, который выберет все записи из таблицы Customers, у которых имя (name) начинается на букву "A" или "M", и возраст (age) больше 25 лет. Отсортируйте список в порядке убывания возраста.
 
-- [x] ```SELECT * FROM Customers
+- [x]
+```sql
+SELECT * FROM Customers
 WHERE (name LIKE 'A%' OR name LIKE 'M%') AND age > 25
-ORDER BY age DESC```
+ORDER BY age DESC
+```
 
 #### Q12. Вы даете разрешение или запрет на выполнение определенных операций над объектами базы данных компании. Какие операторы вы используете в данном процессе?
 
@@ -168,7 +171,7 @@ ORDER BY age DESC```
 
 #### Q13. Какую задачу может решать данный код?
 
-```
+```sql
 SELECT product_name,
 CASE WHEN (price > 100) THEN 'expensive'
 ELSE 'cheap'
@@ -180,15 +183,18 @@ FROM cd.database;
 
 #### Q14. Вам нужен отсортированный в алфавитном порядке список из 10 неповторяющихся имён в таблице group_A. С помощью какого кода может быть решена данная задача?
 
-- [x] ↓
-```
+- [x]
+```sql
 SELECT distinct surname
 FROM group_A
 ORDER BY surname
-LIMIT 10; 
+LIMIT 10;
 ```
 
 #### Q15. У вас есть две таблицы: workers и salary. Первая содержит уникальный id сотрудника, его фамилию (surname) и должность (position). Во второй таблице указано: id должности, сама должность и соответствующая ей зарплата. Вам нужно узнать, сколько зарабатывает каждый сотрудник. Какой вариант кода сможет решить данную задачу?
 
-- [x] ```SELECT *
-FROM workers w JOIN salary s ON w.position = s.position;```
+- [x]
+```sql
+SELECT *
+FROM workers w JOIN salary s ON w.position = s.position;
+```
