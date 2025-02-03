@@ -54,7 +54,7 @@
 5. HTML: [продвинутый](html/advanced.md).
 6. Python: [средний](python/intermediate.md), [продвинутый](python/advanced.md).
 7. SQL: [базовый](sql/basic.md), [средний](sql/intermediate.md), [продвинутый](sql/advanced.md).
-8. Scrum: [базовый](scrum/basic.md), [продвинутый](scrum/advanced.md).
+8. Scrum: [базовый](scrum/basic.md), [средний](scrum/intermediate.md), [продвинутый](scrum/advanced.md).
 9. Agile Project Management: [средний](agile-project-management/intermediate.md), [продвинутый](agile-project-management/advanced.md).
 10. MS Excel: [продвинутый](ms-excel/advanced.md).
 11. Копирайтинг: [базовый](copywriting/basic.md), [средний](copywriting/intermediate.md).
