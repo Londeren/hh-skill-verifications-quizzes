@@ -52,14 +52,15 @@
 3. JavaScript: [продвинутый](javascript/advanced.md).
 4. Git: [базовый](git/basic.md), [средний](git/intermediate.md), [продвинутый](git/advanced.md).
 5. HTML: [продвинутый](html/advanced.md).
-6. Python: [средний](python/intermediate.md), [продвинутый](python/advanced.md).
-7. SQL: [базовый](sql/basic.md), [средний](sql/intermediate.md), [продвинутый](sql/advanced.md).
-8. Scrum: [базовый](scrum/basic.md), [средний](scrum/intermediate.md), [продвинутый](scrum/advanced.md).
-9. Agile Project Management: [средний](agile-project-management/intermediate.md), [продвинутый](agile-project-management/advanced.md).
-10. MS Excel: [продвинутый](ms-excel/advanced.md).
-11. Копирайтинг: [базовый](copywriting/basic.md), [средний](copywriting/intermediate.md).
-12. AutoCAD: [средний](autocad/intermediate.md).
-13. Java: [средний](java/intermediate.md), [продвинутый](java/advanced.md).
+6. CSS: [продвинутый](css/advanced.md).
+7. Python: [средний](python/intermediate.md), [продвинутый](python/advanced.md).
+8. SQL: [базовый](sql/basic.md), [средний](sql/intermediate.md), [продвинутый](sql/advanced.md).
+9. Scrum: [базовый](scrum/basic.md), [средний](scrum/intermediate.md), [продвинутый](scrum/advanced.md).
+10. Agile Project Management: [средний](agile-project-management/intermediate.md), [продвинутый](agile-project-management/advanced.md).
+11. MS Excel: [продвинутый](ms-excel/advanced.md).
+12. Копирайтинг: [базовый](copywriting/basic.md), [средний](copywriting/intermediate.md).
+13. AutoCAD: [средний](autocad/intermediate.md).
+14. Java: [средний](java/intermediate.md), [продвинутый](java/advanced.md).
 
 [→ Страница с тестами на сайте hh](https://hh.ru/applicant/skill_verifications/methods)
 
