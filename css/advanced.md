@@ -1,4 +1,4 @@
-## CSS ADVANCED
+## CSS — продвинутый уровень
 
 🏆 Правильных ответов: ❓ из 15.
 
@@ -171,11 +171,11 @@ html {
 .card {
           width: 1200px;
           height: 600px;
-          background-color: 𛲣slateblue;
+          background-color: slateblue;
     }
     @media (width: 1200px) {
           .card {
-                background-color: 𛲣peachpuff;
+                background-color: peachpuff;
                 transition: all 0.3s ease 0s;
           }
     }
