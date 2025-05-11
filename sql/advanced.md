@@ -81,7 +81,7 @@
   
 
 - [x] `alter table public.table_1 (user_id int, salary float, department_id int)`
-
+Верный вариант: `alter table public.table_1 modify (user_id int, salary float, department_id int)`
   
   
 
