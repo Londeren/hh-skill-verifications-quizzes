@@ -141,7 +141,7 @@ requestAnimationFrame(function () {
 console.log('6');
 ```
 
-- [x] 1, 6, 4, 7, 2, 3, 5
+- [x] 1, 6, 4, 2, 3, 5, 7
 
 #### Q13. Для чего применяется tree shaking в системах сборки JavaScript на прикладном уровне?
 
