@@ -57,7 +57,7 @@
 4. Git: [базовый](git/basic.md), [средний](git/intermediate.md), [продвинутый](git/advanced.md).
 5. HTML: [продвинутый](html/advanced.md).
 6. CSS: [продвинутый](css/advanced.md).
-6. API: [продвинутый](api/advanced.md).
+6. API: [базовый](api/basic.md), [продвинутый](api/advanced.md).
 7. Python: [средний](python/intermediate.md), [продвинутый](python/advanced.md).
 8. SQL: [базовый](sql/basic.md), [средний](sql/intermediate.md), [продвинутый](sql/advanced.md).
 9. Scrum: [базовый](scrum/basic.md), [средний](scrum/intermediate.md), [продвинутый](scrum/advanced.md).
