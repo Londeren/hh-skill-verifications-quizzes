@@ -1,5 +1,11 @@
 ## CSS — продвинутый уровень
 
+#### Содержание
+
+- Трансформация: 2D и 3D
+- Отзывчивый дизайн
+- Позиционирование
+
 #### С помощью какого селектора можно выбрать элементы с классами `d` и `f`?
 
 ```html
@@ -25,9 +31,9 @@
 
 #### Как убрать подчеркивание у всех ссылок?
 
-- [x] body * { text-decoration: none; }
-- [ ] body + * { text-decoration: none; }
-- [ ] body > * { text-decoration: none !important; }
+- [x] body \* { text-decoration: none; }
+- [ ] body + \* { text-decoration: none; }
+- [ ] body > \* { text-decoration: none !important; }
 - [ ] body { text-decoration: none; }
 - [ ] html { text-decoration: none !important; }
 
