@@ -85,11 +85,7 @@
 
 После того как вы пройдете тестирование, на вашем резюме в поиске появится шильдик «Есть подтвержденные навыки».
 
-<img width="794" alt="ed79a8d6c07841acebfb912220f8db5b" src="https://github.com/user-attachments/assets/5c817e99-4049-4fe5-9d7b-f17ffcd42a98">
-
 А в самом резюме подтвержденный навык будет подсвечен зеленым цветом.
-
-<img width="794" alt="acaf0301aaa7f3bea5c7ea98ce4e5eaf" src="https://github.com/user-attachments/assets/2c7db6e4-975c-45f0-85d1-2e394d46cf4b">
 
 ---
 
