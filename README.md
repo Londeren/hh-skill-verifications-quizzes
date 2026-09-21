@@ -1,5 +1,5 @@
 [![Owner](https://img.shields.io/badge/owner-londeren-green)](https://github.com/londeren)
-[![Telegram](https://badgen.net/badge/icon/telegram/cyan?icon=telegram&label)](https://t.me/just_solve_it)
+[![Telegram](https://badgen.net/badge/icon/telegram/cyan?icon=telegram&label)](https://t.me/+IxvDIF9Yk51mNzcy)
 
 # Ответы на тесты для подтверждения навыков на hh.ru
 
